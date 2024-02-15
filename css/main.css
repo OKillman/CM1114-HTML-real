@@ -29,3 +29,19 @@ nav li a{color: white;
 nav li:hover{background-color:red}
 
 .active{background-color: rgb(250, 80, 1);}
+
+
+table{font-family: 'Times New Roman', Times, serif;
+    border-collapse: collapse;}
+
+table td, table th{border:2px solid #F0F0F0}
+
+table th{padding: 10px;
+    text-align: left;}
+
+table tr:nth-child(even){background-color: #F2F2F2}
+
+table tr:hover{background-color: red;}
+
+table th{color:white;
+background-color: orange;}
