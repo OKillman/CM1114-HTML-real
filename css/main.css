@@ -7,13 +7,13 @@ head {background-color: orangered;
 h1,h2,h3,h4,h5,h6 {font-family: 'Times New Roman', Times, serif;
     color: white;}
 
-h1 {font-size: large;}
+h1 {font-size:xx-large;}
 h3 {font-size:larger;}
 p {font-size: medium;}
 
-main {background-color:orangered;
+main {background-color:orange;
     border-radius: 10px;}
-aside {background-color: orangered;
+aside {background-color: orangered;  
     border-radius: 10px;}
 footer {background-color: orangered;
     border-radius: 10px;}
