@@ -17,3 +17,15 @@ aside {background-color: white;
     border-radius: 10px;}
 footer {background-color: rgb(230, 71, 8);
     border-radius: 10px;}
+
+nav li{border: 2px; accent-color: orange;
+    background-color: rgb(230, 71, 8);
+    list-style-type: none;}
+
+nav li a{color: white;
+    text-align: center;
+    text-decoration: none;}
+
+nav li:hover{background-color:red}
+
+.active{background-color: rgb(250, 80, 1);}
