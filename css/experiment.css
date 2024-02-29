@@ -42,7 +42,8 @@ footer {background-color: white;
 
 Nav ul{margin:0px;
     padding:0px;
-    overflow: hidden;}
+    overflow: hidden;
+    display:inline;}
 
 Nav li{border:2px;
     background-color:orange;
