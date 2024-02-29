@@ -59,7 +59,12 @@ nav li a{color: white;
 nav li:hover{background-color:black}
 
 
-.active{background-color: white;}
+.active{border: solid 2px orange;
+    background-color:white;
+    list-style-type: block;
+    float: left;
+    width:15%;
+    padding:16px}
 
 
 
