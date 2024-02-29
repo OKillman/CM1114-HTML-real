@@ -39,23 +39,22 @@ footer {background-color: white;
 
 
 
-nav ul{margin:0px;
+Nav ul{margin:0px;
 padding:0px;
 overflow: hidden;}
 
-nav li{border:2px, solid;
+Nav li{border:2px, solid;
     background-color:orange;
     list-style-type: none;
     float: left;
     width:15%;
-    padding:16px
-}
+    padding:16px}
 
-nav li a{color: white;
+Nav li a{color: white;
     text-align: center;
     text-decoration: none;}
 
-nav li:hover{background-color:black}
+Nav li:hover{background-color:black}
 
 
 .active{background-color: white;}
