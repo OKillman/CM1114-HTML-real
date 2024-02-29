@@ -47,7 +47,7 @@ nav ul{margin:0px;
 
 nav li{border: solid 2px orange;
     background-color:orange;
-    list-style-type: none;
+    list-style-type: block;
     float: left;
     width:15%;
     padding:16px}
