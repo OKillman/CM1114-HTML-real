@@ -41,10 +41,10 @@ footer {background-color: white;
 
 
 Nav ul{margin:0px;
-padding:0px;
-overflow: hidden;}
+    padding:0px;
+    overflow: hidden;}
 
-Nav li{border:2px, solid;
+Nav li{border:2px;
     background-color:orange;
     list-style-type: none;
     float: left;
