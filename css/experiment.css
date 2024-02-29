@@ -59,7 +59,7 @@ nav li a{color: white;
 nav li:hover{background-color:black}
 
 
-.active{border: solid 2px white;
+.active{border: solid 2px orange;
     background-color:orange;
     list-style-type: none;
     float: left;
