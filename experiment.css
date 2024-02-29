@@ -34,7 +34,7 @@ main {background-color:white;
     border-radius: 10px;}
 aside {background-color: white;  
     border-radius: 10px;}
-footer {background-color: rgb(230, 71, 8);
+footer {background-color: white;
     border-radius: 10px;}
 
 
@@ -59,12 +59,12 @@ nav li:hover{background-color:red}
 table{font-family: 'Times New Roman', Times, serif;
     border-collapse: collapse;}
 
-table td, table th{border:2px solid #F0F0F0}
+table td, table th{border:2px solid white}
 
 table th{padding: 10px;
     text-align: left;}
 
-table tr:nth-child(even){background-color: #F2F2F2}
+table tr:nth-child(even){background-color: white}
 
 table tr:hover{background-color: red;}
 
