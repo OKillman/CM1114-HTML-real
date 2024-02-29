@@ -61,9 +61,9 @@ nav li:hover{background-color:black}
 
 .active{border: solid 2px orange;
     background-color:white;
-    list-style-type: block;
+    list-style-type: none;
     float: left;
-    width:15%;
+    width:20%;
     padding:16px}
 
 
