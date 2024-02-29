@@ -59,8 +59,8 @@ nav li a{color: white;
 nav li:hover{background-color:black}
 
 
-.active{border: solid 2px orange;
-    background-color:white;
+.active{border: solid 2px white;
+    background-color:orange;
     list-style-type: none;
     float: left;
     width:20%;
