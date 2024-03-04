@@ -60,7 +60,7 @@ nav li:hover{background-color:black}
 
 
 .active{border: solid 2px black;
-    background-color:rgb(122, 67, 0);
+    background-color:orange;
     list-style-type: block;
     float: left;
     width:17%;
