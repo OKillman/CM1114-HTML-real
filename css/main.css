@@ -1,0 +1,64 @@
+body{background-color: darkgray;}
+
+header{
+    background-color: lightgray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
+    color: White}
+
+h1{
+    font-size: 40pt;}
+
+h3{
+    font-size: 15pt;}
+
+p{
+    font-size: 10pt;}
+
+main{
+    background-color: lightgray;
+    border-radius: 10px;}
+
+aside{
+    background-color: lightgray;
+    border-radius: 10px;}
+
+footer{
+    background-color: lightgray;
+    border-radius: 10px;}
+
+nav li{
+    border: 2px, solid, white;
+    background-color: darkgray;
+    list-style-type: none}
+
+nav li a{
+    color: darkgray;
+    text-align: center;
+    text-decoration: none;}
+
+Nav li:hover{
+    background-color: black}
+
+.active{
+    background-color: white}
+
+
+table{
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: collapse}
+
+table td, table th{border:2px solid #F0F0F0}
+Table tr:nth-child(even){
+    background-color: F2F2F2;}
+
+Table tr:hover{
+    background-color: darkgray;}
+
+Table th{
+    background-color: lightgray;
+    color:white}
