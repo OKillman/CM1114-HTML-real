@@ -1,0 +1,116 @@
+<!-- 
+Threat Model 
+Threat Source: External 
+Threat Agent: Human, Computer 
+Threat Intention: Intentional 
+Threat Motivation: Server DOS
+Threat Impact: Could take advantage of the event times, as the website is most likely to be less monitored during these times.
+Threat Mitigation: Have the website under 24/7 surveilence   --> 
+
+<!DOCTYPE html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <!-- Bootstrap -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+
+    <title>Mixology Society</title>
+    <link rel ="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+    <header>    
+        <img src="images/logo.jpg" alt="logo" id="logo">
+        <h1 id="title"> Mixology Society </h1>
+    </header>
+
+
+<!-- navigation bar -->
+<nav>   
+    <ul>
+        <li class="active"><a href="index.html">Index</a></li>
+        <li class="active"><a href="current_members.html">Current Members</a></li>
+        <li class="active"><a href="event_calender.html">Event Calender</a></li>
+        <li class="active"><a href="img_gallery.html">Image Gallery</a></li>
+        <li class="active"><a href="contact_us.html">Contact Us</a></li>
+        <li class="active"><a href="About_us.html">About Us</a></li>
+        <li class="active"><a href="Cocktails.html">Cocktails</a></li>
+    </ul>
+</nav>
+
+
+
+    <main>      
+         <!-- Carousel -->
+
+         <div id="carousel" class="carousel slide" data-bs-ride = “carousel”>
+        
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+            </div>
+
+
+                <!--Inner Section -->
+                <div class="carousel-inner">
+
+                    <!-- First picture -->
+                    <div class="carousel-item active">
+                        <a href="Margarita.html"><img class="d-block mx-auto w-50" alt="Sparkly?" src="Images/Margarita.jpg"></a>
+                        <div class="carousel-caption">
+                            <p class="ImageText">Margarita</p>
+                        </div>
+                    </div>
+
+                    <!--Second picture-->
+                    <div class="carousel-item">
+                        <a href="Cosmopolitan.html"><img class="d-block mx-auto w-50" alt="In line drinks" src="Images/Cosmopolitan.jpg"></a>
+                        <div class="carousel-caption">
+                            <p class="ImageText">Cosmopolitan</p>
+                        </div>
+                    </div>
+                    
+                    <!--Third picture-->
+                    <div class="carousel-item">
+                        <a href="BlueLagoon.html"><img class="d-block mx-auto w-50" alt="Christmas looking cocktails" src="Images/BlueLagoon.jpg"></a>
+                            <div class="carousel-caption">
+                                <p class="ImageText">Blue Lagoon</p>
+                            </div>
+                    </div>
+        
+                </div>
+        
+            <!--Previous Button-->
+            <button class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </button>
+        
+            <!--Next Button-->
+            <button class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </button>
+        
+        </div>
+    </main>
+
+    <aside>     
+
+    </aside>
+
+    <footer>  
+        <p>Copyright OLLIE KILLMAN May 2024</p>     
+    </footer>
+
+</body>
+
+</html>
