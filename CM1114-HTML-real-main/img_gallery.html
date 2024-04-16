@@ -1,0 +1,128 @@
+<!-- 
+Threat Model 
+Threat Source: External 
+Threat Agent: Human, Computer 
+Threat Intention: Intentional 
+Threat Motivation: Photo Ownership
+Threat Impact: Could take then photos and sell them as your own
+Threat Mitigation: Watermark the photos to avoid this.   --> 
+
+<!DOCTYPE html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <!-- Bootstrap -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+
+    <title>Mixology Society</title>
+    <link rel ="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+    <header>    
+        <img src="images/logo.jpg" alt="logo" id="logo">
+        <h1 id="title"> Mixology Society </h1>
+    </header>
+
+
+<!-- navigation bar -->
+    <nav>   
+        <ul>
+            <li class="active"><a href="index.html">Index</a></li>
+            <li class="active"><a href="current_members.html">Current Members</a></li>
+            <li class="active"><a href="event_calender.html">Event Calender</a></li>
+            <li class="active"><a href="img_gallery.html">Image Gallery</a></li>
+            <li class="active"><a href="contact_us.html">Contact Us</a></li>
+            <li class="active"><a href="About_us.html">About Us</a></li>
+            <li class="active"><a href="Other_Societies.html">Other Societies</a></li>
+        </ul>
+    </nav>
+
+
+
+    <main>      
+        <!-- initalising gallery-->
+        <div id="img-gallery" class="container">
+
+            <!-- First row of images -->
+
+            <div class="row align-items-center">
+                <div class="col"> <!-- Image 1/3 -->
+                    <img class="gallery-img" onmouseout ="delight(this)" onmouseover="highlight(this)" src="images/Fancy.png" alt="Fancy Cocktails">
+                </div>
+                <div class="col"><!-- Image 2/3 -->
+                    <img class="gallery-img" onmouseout ="delight(this)" onmouseover="highlight(this)" src="images/Multiple.png" alt="Multiple Cocktails">
+                </div>
+                <div class="col"><!-- Image 3/3-->
+                    <img class="gallery-img" onmouseout ="delight(this)" onmouseover="highlight(this)" src="images/Multiple2.png" alt="Second Multiple Cocktails">
+                </div>
+            </div>
+
+
+            <!-- Second row of images -->
+
+            <div class="row align-items-center">
+                <div class="col"><!-- Image 1/3 -->
+                    <img class="gallery-img" onmouseout ="delight(this)" onmouseover="highlight(this)" src="images/Sparks.png" alt="Christmas Cocktails">
+                </div>
+                <div class="col"><!-- Image 2/3 -->
+                    <img class="gallery-img" onmouseout ="delight(this)" onmouseover="highlight(this)" src="images/Uniform.png" alt="Fancy Cocktails">
+                </div>
+                <div class="col"><!-- Image 3/3 -->
+                    <img class="gallery-img" onmouseout ="delight(this)" onmouseover="highlight(this)" src="images/Christmas.png" alt="Christmas Cocktails">
+                </div>    
+              </div>
+
+
+              <!-- Third row of images -->
+
+            <div class="row align-items-end">
+                
+                <div class="col"><!-- Image 1/3 -->
+                    <img class="gallery-img" onmouseout ="delight(this)" onmouseover="highlight(this)" src="images/Straining2.png" alt="Second Multiple Cocktails">
+                </div>
+                <div class="col"><!-- Image 2/3 -->
+                    <img class="gallery-img" onmouseout ="delight(this)" onmouseover="highlight(this)" src="images/Neon.png" alt="Neon Cocktails">
+                </div>
+                <div class="col"><!-- Image 3/3 -->
+                    <img class="gallery-img" onmouseout ="delight(this)" onmouseover="highlight(this)" src="images/Straining.png" alt="Multiple Cocktails">
+                </div>
+                
+            </div>
+
+        </div>
+        
+    </main>
+
+
+
+    <aside>     
+
+    </aside>
+
+    <footer>  
+        <p>Copyright OLLIE KILLMAN May 2024</p>     
+    </footer>
+
+    <script> /* Scripts to highlight/delight what image the cursor is over */
+                    /* hilight function */ 
+        function highlight(image) { 
+            image.style="border: Solid purple 10px" 
+        } 
+                    /* delight function */ 
+        function delight(image) { 
+            image.style="border: none;" 
+        }
+
+    </script>
+
+</body>
+
+</html>
